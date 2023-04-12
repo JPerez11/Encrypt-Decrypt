@@ -18,7 +18,7 @@ const letter = {
     "o": "ober",
     "u": "ufat"
 };
-const regex = "^[a-z]+$";
+const regex = /^[a-z\s]+$/;
 const vowels = /[aeiou]/g;
 
 /* Functions */
