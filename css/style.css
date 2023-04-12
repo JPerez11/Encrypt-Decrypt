@@ -1,0 +1,104 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+}
+
+.header h1 {
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+    user-select: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    height: 30em;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section .input-text {
+    width: 36em;
+    height: 26em;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+main section .input-text:focus {
+    outline: 1px solid rgb(25, 38, 78);
+}
+
+main section .output-text {
+    width: 16em;
+    height: 26em;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+main section .output-text:focus {
+    outline: none;
+}
+
+main section .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3em;
+}
+
+main section button {
+    width: 14em;
+    height: 4em;    
+    color: #fff;
+    border: 1px solid rgb(25, 38, 78);
+    background-color: rgb(35, 48, 88);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+main section button:hover {
+    border: 1px solid rgb(25, 38, 78);
+    background-color: rgb(27, 50, 118);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4em;
+}
+
+.empty {
+    outline: 1px solid red;
+}
+
+.empty:focus {
+    outline: 1px solid red;
+}
+
+.show {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    color: #000;
+    border: 1px solid rgb(242, 182, 85);
+    background-color: #fff;
+    border-radius: 5px;
+}

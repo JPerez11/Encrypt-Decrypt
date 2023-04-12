@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <title>Challenge ONE</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Text Encryptor</h1>
+    </header>
+    <main>
+        <section>
+            <div class="text-in">
+                <textarea class="input-text" name="text_in" id="text_in" cols="30" rows="10" placeholder="Write your text to encrypt"></textarea>
+            </div>
+            <div class="actions">
+                <div class="encryptor">
+                    <button id="encrypt_button">encrypt</button>
+                </div>
+                <div class="decryptor">
+                    <button id="decrypt_button">decrypt</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-out">
+                <textarea class="output-text" name="text_out" id="text_out" cols="30" rows="10" readonly></textarea>
+            </div>
+                <div class="input-copy">
+                    <button id="copy_text">copy</button>
+                </div>
+        </section>
+    </main>
+    
+    <footer>
+        Copyright &copy; Jhoan Perez | Java developer
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
